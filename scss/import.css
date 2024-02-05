@@ -4864,7 +4864,7 @@ body.open-menu::after {
 }
 @media (max-width: 767px) {
   .text-banner-cambio {
-    height: 860px !important;
+    height: 761px !important;
   }
 }
 
@@ -4900,7 +4900,7 @@ body.open-menu::after {
 }
 @media (max-width: 791px) {
   .main-text-banner h1 {
-    font-size: 56px;
+    font-size: 48px;
   }
 }
 .main-text-banner span {
@@ -11358,9 +11358,9 @@ body {
   box-shadow: none;
   border: 1px solid rgb(212, 212, 212);
 }
-@media (max-width: 550px) {
+@media (max-width: 767px) {
   .itens-1 .cards-itens-1 .card {
-    flex-direction: row-reverse;
+    flex-direction: column !important;
   }
 }
 .itens-1 .cards-itens-1 .card .first-img {
@@ -11376,15 +11376,20 @@ body {
   width: fit-content;
   height: fit-content;
 }
+@media (max-width: 767px) {
+  .itens-1 .cards-itens-1 .card .second-img {
+    display: none;
+  }
+}
 .itens-1 .cards-itens-1 .card .texts {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   width: 100%;
 }
-@media (max-width: 550px) {
+@media (max-width: 767px) {
   .itens-1 .cards-itens-1 .card .texts {
-    align-items: flex-start;
+    align-items: center;
   }
 }
 .itens-1 .cards-itens-1 .card .texts h6 {
@@ -11410,6 +11415,12 @@ body {
   max-width: 26.0416666667vw !important;
   width: 26.0416666667vw !important;
   padding: 16px !important;
+}
+@media (max-width: 616px) {
+  .tooltip .tooltip-inner {
+    max-width: 50vw !important;
+    width: 50vw !important;
+  }
 }
 
 /* Pages */

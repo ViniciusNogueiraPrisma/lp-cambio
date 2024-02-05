@@ -5943,7 +5943,7 @@ body {
       font-weight: 700;
       line-height: 116%;
 
-      @media(max-width: 767px) {
+      @media (max-width: 767px) {
         font-size: 48px;
       }
 
@@ -5976,7 +5976,7 @@ body {
       line-height: 116%;
       margin-bottom: 40px !important;
 
-      @media(max-width: 767px) {
+      @media (max-width: 767px) {
         font-size: 38px;
       }
     }
@@ -6012,7 +6012,7 @@ body {
       margin: 0;
       padding: 0;
 
-      @media(max-width: 767px) {
+      @media (max-width: 767px) {
         font-size: 48px;
       }
 
@@ -6252,9 +6252,13 @@ body {
       box-shadow: none;
       border: 1px solid rgb(212, 212, 212);
 
-      @media (max-width: 550px) {
-        flex-direction: row-reverse;
+      @media (max-width: 767px) {
+        flex-direction: column !important;
       }
+
+      // @media (max-width: 550px) {
+      //   flex-direction: row-reverse;
+      // }
 
       .first-img {
         width: fit-content;
@@ -6274,6 +6278,10 @@ body {
       .second-img {
         width: fit-content;
         height: fit-content;
+
+        @media (max-width: 767px) {
+          display: none;
+        }
       }
 
       .texts {
@@ -6282,8 +6290,8 @@ body {
         align-items: flex-end;
         width: 100%;
 
-        @media (max-width: 550px) {
-          align-items: flex-start;
+        @media (max-width: 767px) {
+          align-items: center;
         }
 
         h6 {
@@ -6313,9 +6321,17 @@ body {
 }
 
 .tooltip {
+  @media (max-width: 746px) {
+  }
+
   .tooltip-inner {
     max-width: 26.041666666666668vw !important;
     width: 26.041666666666668vw !important;
     padding: 16px !important;
+
+    @media (max-width: 616px) {
+      max-width: 50vw !important;
+      width: 50vw !important;
+    }
   }
 }
