@@ -5581,6 +5581,12 @@ body.open-menu::after {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 767px) {
+  .prisma-cambio {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
 .prisma-cambio span {
   color: #fafafa;
   font-size: 14px;
@@ -5953,9 +5959,6 @@ body.open-menu::after {
   .imgs-bluetransfer-bcb-last {
     flex-direction: column;
     gap: 16px;
-  }
-  .prisma-cambio {
-    display: none;
   }
   .prisma-cambio-last {
     display: flex;
@@ -6847,9 +6850,9 @@ footer {
   gap: 8px;
 }
 .voltar-topo span {
-  color: #bbbbbb;
+  color: white;
   font-size: 14px;
-  font-family: "Roboto";
+  font-family: Inter;
   font-weight: 400;
   line-height: 19.6px;
   word-wrap: break-word;
@@ -10814,7 +10817,7 @@ body {
 }
 .content-tabs {
   display: flex;
-  gap: 24px;
+  gap: 42px;
   width: 100%;
 }
 @media (max-width: 1377px) {
@@ -10934,7 +10937,7 @@ body {
 }
 
 .accordions-content {
-  height: 100%;
+  height: fit-content;
   gap: 16px;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -11215,6 +11218,11 @@ body {
   background: var(--Grayscale-grayscale-color-200, #333);
   padding: 8px 0px;
 }
+@media (max-width: 767px) {
+  .last-itens-footer {
+    padding: 24px 0px;
+  }
+}
 
 .disclaimer {
   padding: 16px;
@@ -11276,6 +11284,7 @@ body {
   padding: 24px;
   background-color: #eeeeee;
   border-radius: 4px;
+  box-shadow: none;
 }
 .wrapper-cards .swiper-slide .card h2 {
   color: var(--Typography-Text-color-font-text-default, #1d1d1d);
@@ -11352,11 +11361,16 @@ body {
   border-radius: 8px;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 28.864583vw;
   gap: 16px;
   align-items: center !important;
   box-shadow: none;
   border: 1px solid rgb(212, 212, 212);
+}
+@media (max-width: 1199px) {
+  .itens-1 .cards-itens-1 .card {
+    width: 100%;
+  }
 }
 @media (max-width: 767px) {
   .itens-1 .cards-itens-1 .card {

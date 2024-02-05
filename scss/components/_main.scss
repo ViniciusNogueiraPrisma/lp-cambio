@@ -963,10 +963,14 @@ $color: #344ff4;
 }
 
 .prisma-cambio {
-  // padding-top: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media(max-width: 767px) {
+    flex-direction: column;
+    gap: 16px;
+  } 
 
   span {
     // © Todos os direitos reservados 2023
@@ -1475,7 +1479,7 @@ $color: #344ff4;
   }
 
   .prisma-cambio {
-    display: none;
+    // display: none;
   }
 
   .prisma-cambio-last {
