@@ -522,8 +522,8 @@ td {
 }
 @media (max-width: 575px) {
   .container {
-    padding-left: 40px !important;
-    padding-right: 40px !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
   }
 }
 
@@ -11418,8 +11418,8 @@ body {
 }
 @media (max-width: 616px) {
   .tooltip .tooltip-inner {
-    max-width: 50vw !important;
-    width: 50vw !important;
+    max-width: 70vw !important;
+    width: 70vw !important;
   }
 }
 
