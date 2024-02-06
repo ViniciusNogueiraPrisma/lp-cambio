@@ -36,6 +36,12 @@ var swiper = new Swiper(".mySwiper-cards", {
   },
 });
 
+$(document).ready(function () {
+  $(".collapse").on("show.bs.collapse", function () {
+    $(".collapse.show").not(this).collapse("hide");
+  });
+});
+
 const accordion_item = document.querySelectorAll(".accordion_item");
 
 accordion_item.forEach((item) => {
