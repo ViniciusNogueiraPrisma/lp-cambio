@@ -166,7 +166,8 @@ $color: #344ff4;
   flex-direction: column;
   position: relative;
   z-index: 11;
-  padding-bottom: 146px;
+  // padding-bottom: 146px;
+  padding-bottom: 15.44973544973545vh;
 
   @media (max-width: 767px) {
     padding-bottom: 190px;

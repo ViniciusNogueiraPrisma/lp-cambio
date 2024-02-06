@@ -4873,7 +4873,7 @@ body.open-menu::after {
   flex-direction: column;
   position: relative;
   z-index: 11;
-  padding-bottom: 146px;
+  padding-bottom: 15.4497354497vh;
 }
 @media (max-width: 767px) {
   .main-text-banner {
