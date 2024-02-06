@@ -59,7 +59,7 @@
   object-fit: cover;
 
   @media (max-width: 767px) {
-    height: 720px !important;
+    height: 640px !important;
   }
 }
 
@@ -78,7 +78,7 @@
   );
 
   @media (max-width: 767px) {
-    height: 720px !important;
+    height: 640px !important;
   }
 }
 
@@ -169,7 +169,7 @@ $color: #344ff4;
   padding-bottom: 146px;
 
   @media (max-width: 767px) {
-    padding-bottom: 110px;
+    padding-bottom: 190px;
   }
 
   .first-span {
@@ -192,7 +192,7 @@ $color: #344ff4;
     word-wrap: break-word;
     padding-bottom: 64px !important;
 
-    @media(max-width: 1158px) {
+    @media (max-width: 1158px) {
       line-height: 100%;
     }
 
@@ -252,7 +252,7 @@ $color: #344ff4;
   height: 85.71428571428571vh !important;
 
   @media (max-width: 767px) {
-    height: 720px !important;
+    height: 640px !important;
   }
 }
 

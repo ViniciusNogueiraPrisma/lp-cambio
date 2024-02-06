@@ -4776,7 +4776,7 @@ body.open-menu::after {
 }
 @media (max-width: 767px) {
   .banner-cambio img {
-    height: 720px !important;
+    height: 640px !important;
   }
 }
 
@@ -4791,7 +4791,7 @@ body.open-menu::after {
 }
 @media (max-width: 767px) {
   .banner-cambio::before {
-    height: 720px !important;
+    height: 640px !important;
   }
 }
 
@@ -4877,7 +4877,7 @@ body.open-menu::after {
 }
 @media (max-width: 767px) {
   .main-text-banner {
-    padding-bottom: 110px;
+    padding-bottom: 190px;
   }
 }
 .main-text-banner .first-span {
@@ -4953,7 +4953,7 @@ body.open-menu::after {
 }
 @media (max-width: 767px) {
   .mySwiper-cambio {
-    height: 720px !important;
+    height: 640px !important;
   }
 }
 
