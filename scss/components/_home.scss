@@ -6247,6 +6247,10 @@ body {
   align-items: center;
   gap: 24px;
 
+  @media (max-width: 1199px) {
+    width: 100%;
+  }
+
   .img-itens-1 {
     @media (max-width: 580px) {
       display: none;
@@ -6259,6 +6263,10 @@ body {
 
       .texts {
         align-items: flex-start !important;
+
+        @media (max-width: 1439px) {
+          text-align: start !important;
+        }
       }
     }
   }
@@ -6267,6 +6275,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+
+    @media (max-width: 1199px) {
+      width: 100%;
+    }
 
     .card {
       padding: 16px 24px;
@@ -6321,8 +6333,12 @@ body {
         align-items: flex-end;
         width: 100%;
 
+        @media (max-width: 1439px) {
+          text-align: end;
+        }
+
         @media (max-width: 767px) {
-          align-items: center;
+          align-items: center !important;
         }
 
         h6 {
