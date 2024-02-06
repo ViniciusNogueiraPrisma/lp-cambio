@@ -58,9 +58,8 @@
   height: 85.71428571428571vh !important;
   object-fit: cover;
 
-  @media(max-width: 767px) {
-    height: 860px !important;
-
+  @media (max-width: 767px) {
+    height: 720px !important;
   }
 }
 
@@ -78,9 +77,8 @@
     rgba(255, 255, 255, 0) 100%
   );
 
-  @media(max-width: 767px) {
-    height: 860px !important;
-
+  @media (max-width: 767px) {
+    height: 720px !important;
   }
 }
 
@@ -112,7 +110,7 @@ $color: #344ff4;
     width: 0%;
     height: 100%;
     background-color: darken($color, 15%);
-    transition: all 0.3s;
+    transition: all 0.6s;
     z-index: -1;
   }
   &:hover {
@@ -160,9 +158,7 @@ $color: #344ff4;
 
   @media (max-width: 767px) {
     height: 761px !important;
-
   }
-
 }
 
 .main-text-banner {
@@ -173,7 +169,7 @@ $color: #344ff4;
   padding-bottom: 146px;
 
   @media (max-width: 767px) {
-    padding-bottom: 40px;
+    padding-bottom: 110px;
   }
 
   .first-span {
@@ -195,6 +191,10 @@ $color: #344ff4;
     line-height: 79.36px;
     word-wrap: break-word;
     padding-bottom: 64px !important;
+
+    @media(max-width: 1158px) {
+      line-height: 100%;
+    }
 
     @media (max-width: 791px) {
       font-size: 48px;
@@ -252,7 +252,7 @@ $color: #344ff4;
   height: 85.71428571428571vh !important;
 
   @media (max-width: 767px) {
-    height: 860px !important;
+    height: 720px !important;
   }
 }
 
@@ -790,21 +790,20 @@ $color: #344ff4;
   // width: 100%;
   // gap: 4.166666666666667vw;
 
-  @media(max-width: 1275px) {
-  display: grid;
-  grid-template-columns: auto auto; 
+  @media (max-width: 1275px) {
+    display: grid;
+    grid-template-columns: auto auto;
   }
 
-  @media(max-width: 885px) {
+  @media (max-width: 885px) {
     grid-template-columns: auto;
     gap: 32px;
   }
 
-  @media(max-width: 947px) {
+  @media (max-width: 947px) {
     margin-top: 16px;
     margin-bottom: 32px;
   }
-
 
   img {
     width: 256px;
@@ -814,10 +813,10 @@ $color: #344ff4;
 .texts-logo-contatos {
   width: 308px;
 
-  @media(max-width: 947px) {
+  @media (max-width: 947px) {
     width: 100%;
   }
-   h2 {
+  h2 {
     // Endereço:
     color: #fafafa;
     font-size: 14px;
@@ -828,7 +827,7 @@ $color: #344ff4;
     margin: 0;
     padding-bottom: 24px !important;
 
-    @media(max-width: 885px) {
+    @media (max-width: 885px) {
       padding-bottom: 16px !important;
     }
     // padding-bottom: 40px !important;
@@ -898,7 +897,7 @@ $color: #344ff4;
   justify-content: space-between;
   padding-bottom: 24px;
 
-  @media(max-width: 947px) {
+  @media (max-width: 947px) {
     flex-direction: column;
   }
 }
@@ -967,10 +966,10 @@ $color: #344ff4;
   justify-content: space-between;
   align-items: center;
 
-  @media(max-width: 767px) {
+  @media (max-width: 767px) {
     flex-direction: column;
     gap: 16px;
-  } 
+  }
 
   span {
     // © Todos os direitos reservados 2023

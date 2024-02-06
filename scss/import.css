@@ -4776,7 +4776,7 @@ body.open-menu::after {
 }
 @media (max-width: 767px) {
   .banner-cambio img {
-    height: 860px !important;
+    height: 720px !important;
   }
 }
 
@@ -4791,7 +4791,7 @@ body.open-menu::after {
 }
 @media (max-width: 767px) {
   .banner-cambio::before {
-    height: 860px !important;
+    height: 720px !important;
   }
 }
 
@@ -4821,7 +4821,7 @@ body.open-menu::after {
   width: 0%;
   height: 100%;
   background-color: #0b27d0;
-  transition: all 0.3s;
+  transition: all 0.6s;
   z-index: -1;
 }
 .button-hover-cambio:hover:before {
@@ -4877,7 +4877,7 @@ body.open-menu::after {
 }
 @media (max-width: 767px) {
   .main-text-banner {
-    padding-bottom: 40px;
+    padding-bottom: 110px;
   }
 }
 .main-text-banner .first-span {
@@ -4897,6 +4897,11 @@ body.open-menu::after {
   line-height: 79.36px;
   word-wrap: break-word;
   padding-bottom: 64px !important;
+}
+@media (max-width: 1158px) {
+  .main-text-banner h1 {
+    line-height: 100%;
+  }
 }
 @media (max-width: 791px) {
   .main-text-banner h1 {
@@ -4948,7 +4953,7 @@ body.open-menu::after {
 }
 @media (max-width: 767px) {
   .mySwiper-cambio {
-    height: 860px !important;
+    height: 720px !important;
   }
 }
 
@@ -7434,7 +7439,7 @@ footer {
   width: 0;
   height: 1px;
   background: #344ff4;
-  transition: width 0.3s;
+  transition: width 0.6s;
 }
 
 .nav-link:hover:after {
@@ -10860,6 +10865,9 @@ body {
   opacity: 1;
   transition: 0.4s;
 }
+.nav-tabs li.active:hover {
+  opacity: 1 !important;
+}
 .nav-tabs li {
   display: flex;
   align-items: center;
@@ -10867,6 +10875,10 @@ body {
   margin: 0;
   opacity: 0.3;
   transition: 0.4s;
+}
+.nav-tabs li:hover {
+  transition: 0.4s;
+  opacity: 0.1;
 }
 .nav-tabs li img {
   width: 32px;
@@ -10961,7 +10973,7 @@ body {
 }
 .accordions-content .accordion {
   width: 18.125vw;
-  background-color: #000000;
+  background-color: #494949;
   height: fit-content;
   border-radius: 8px !important;
   margin: 0;
@@ -10996,10 +11008,15 @@ body {
   border-radius: 8px !important;
   background: none !important;
 }
+.accordions-content .accordion button[aria-expanded=true] {
+  background-color: #000000;
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
 .accordions-content .accordion button {
   border: none;
   color: var(--Typography-Text-color-font-text-secondary, #fafafa);
-  background-color: #000000;
+  background-color: #494949;
   font-family: "Bw Seido Raw";
   font-size: 21px;
   font-style: normal;
@@ -11102,6 +11119,11 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 116%;
+}
+@media (max-width: 767px) {
+  .estrutura-cambial .title-estrutura h1 span {
+    font-size: 48px;
+  }
 }
 
 .desbrave {

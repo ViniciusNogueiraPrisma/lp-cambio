@@ -1489,7 +1489,7 @@ footer {
   width: 0;
   height: 1px;
   background: #344ff4;
-  transition: width 0.3s;
+  transition: width 0.6s;
 }
 
 .nav-link:hover:after {
@@ -5691,6 +5691,10 @@ body {
   li.active {
     opacity: 1;
     transition: 0.4s;
+
+    &:hover {
+      opacity: 1 !important;
+    }
   }
 
   li {
@@ -5700,6 +5704,11 @@ body {
     margin: 0;
     opacity: 0.3;
     transition: 0.4s;
+
+    &:hover {
+      transition: 0.4s;
+      opacity: 0.1;
+    }
 
     img {
       width: 32px;
@@ -5804,7 +5813,8 @@ body {
 
   .accordion {
     width: 18.125vw;
-    background-color: #000000;
+    // background-color: #000000;
+    background-color: #494949;
     height: fit-content;
     border-radius: 8px !important;
     margin: 0;
@@ -5835,10 +5845,16 @@ body {
       background: none !important;
     }
 
+    button[aria-expanded="true"] {
+      background-color: #000000;
+      border-bottom-right-radius: 0px !important;
+      border-bottom-left-radius: 0px !important;
+    }
+
     button {
       border: none;
       color: var(--Typography-Text-color-font-text-secondary, #fafafa);
-      background-color: #000000;
+      background-color: #494949;
       font-family: "Bw Seido Raw";
       font-size: 21px;
       // font-size: 18px;
@@ -5956,6 +5972,10 @@ body {
         font-style: normal;
         font-weight: 700;
         line-height: 116%;
+
+        @media (max-width: 767px) {
+          font-size: 48px;
+        }
       }
     }
   }
@@ -6259,7 +6279,7 @@ body {
       box-shadow: none;
       border: 1px solid rgb(212, 212, 212);
 
-      @media(max-width: 1199px) {
+      @media (max-width: 1199px) {
         width: 100%;
       }
 

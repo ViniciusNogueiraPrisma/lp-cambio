@@ -26,10 +26,10 @@ var swiper = new Swiper(".mySwiper-fundos", {
 
 var swiper = new Swiper(".mySwiper-cards", {
   slidesPerView: "auto",
-  // autoplay: {
-  //   delay: 2000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
   pagination: {
     clickable: true,
     el: ".swiper-pagination",
