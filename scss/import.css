@@ -11285,6 +11285,11 @@ body {
   display: flex;
   gap: 16px;
 }
+@media (max-width: 500px) {
+  .wrapper-cards {
+    height: 455px;
+  }
+}
 .wrapper-cards .swiper-slide {
   width: fit-content !important;
   color: black;
@@ -11310,8 +11315,7 @@ body {
 }
 @media (max-width: 800px) {
   .wrapper-cards .swiper-slide .card {
-    height: 385px !important;
-    border: 1px solid red !important;
+    height: 400px !important;
   }
 }
 .wrapper-cards .swiper-slide .card h2 {

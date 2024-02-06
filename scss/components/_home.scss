@@ -6158,6 +6158,10 @@ body {
   display: flex;
   gap: 16px;
 
+  @media (max-width: 500px) {
+    height: 455px;
+  }
+
   .swiper-slide {
     width: fit-content !important;
     color: black;
@@ -6185,8 +6189,7 @@ body {
       box-shadow: none;
 
       @media (max-width: 800px) {
-        height: 385px !important;
-        border: 1px solid red !important;
+        height: 400px !important;
       }
 
       h2 {
