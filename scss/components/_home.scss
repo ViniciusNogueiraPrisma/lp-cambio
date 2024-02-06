@@ -6184,6 +6184,10 @@ body {
       border-radius: 4px;
       box-shadow: none;
 
+      @media(max-width: 800px) {
+        height: 380px;
+      }
+
       h2 {
         color: var(--Typography-Text-color-font-text-default, #1d1d1d);
         font-family: "Bennet Banner Extra Condensed";
