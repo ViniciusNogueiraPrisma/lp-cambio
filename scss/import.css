@@ -11291,7 +11291,7 @@ body {
 }
 @media (max-width: 500px) {
   .wrapper-cards {
-    height: 365px;
+    height: 465px;
   }
 }
 .wrapper-cards .swiper-slide {
@@ -11319,7 +11319,7 @@ body {
 }
 @media (max-width: 800px) {
   .wrapper-cards .swiper-slide .card {
-    height: 340px !important;
+    height: 350px !important;
   }
 }
 .wrapper-cards .swiper-slide .card h2 {
