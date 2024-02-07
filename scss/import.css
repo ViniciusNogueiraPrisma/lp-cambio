@@ -5463,7 +5463,7 @@ body.open-menu::after {
   line-height: 18.48px;
   word-wrap: break-word;
   margin: 0;
-  padding-bottom: 24px !important;
+  padding-bottom: 16px !important;
 }
 @media (max-width: 885px) {
   .texts-logo-contatos h2 {
@@ -5485,6 +5485,10 @@ body.open-menu::after {
   font-weight: 400;
   line-height: 18.48px;
   word-wrap: break-word;
+}
+
+.links-a-footer a {
+  text-decoration: underline;
 }
 
 .links-footer span {
@@ -11287,7 +11291,7 @@ body {
 }
 @media (max-width: 500px) {
   .wrapper-cards {
-    height: 480px;
+    height: 365px;
   }
 }
 .wrapper-cards .swiper-slide {
@@ -11307,16 +11311,11 @@ body {
 }
 .wrapper-cards .swiper-slide .card {
   width: 193px;
-  height: 360px;
+  height: 301px;
   padding: 24px;
   background-color: #eeeeee;
   border-radius: 4px;
   box-shadow: none;
-}
-@media (max-width: 800px) {
-  .wrapper-cards .swiper-slide .card {
-    height: 420px !important;
-  }
 }
 .wrapper-cards .swiper-slide .card h2 {
   color: var(--Typography-Text-color-font-text-default, #1d1d1d);

@@ -826,7 +826,7 @@ $color: #344ff4;
     line-height: 18.48px;
     word-wrap: break-word;
     margin: 0;
-    padding-bottom: 24px !important;
+    padding-bottom: 16px !important;
 
     @media (max-width: 885px) {
       padding-bottom: 16px !important;
@@ -852,6 +852,12 @@ $color: #344ff4;
       line-height: 18.48px;
       word-wrap: break-word;
     }
+  }
+}
+
+.links-a-footer {
+  a {
+    text-decoration: underline;
   }
 }
 
