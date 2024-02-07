@@ -6186,9 +6186,9 @@ body {
       border-radius: 4px;
       box-shadow: none;
 
-      // @media (max-width: 800px) {
-      //   height: 340px !important;
-      // }
+      @media (max-width: 800px) {
+        height: 340px !important;
+      }
 
       h2 {
         color: var(--Typography-Text-color-font-text-default, #1d1d1d);
