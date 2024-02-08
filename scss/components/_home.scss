@@ -5832,6 +5832,7 @@ body {
     margin: 0;
     padding: 0;
 
+
     @media (max-width: 1540px) {
       width: 17.125vw;
     }
@@ -5861,6 +5862,11 @@ body {
       background-color: #000000;
       border-bottom-right-radius: 0px !important;
       border-bottom-left-radius: 0px !important;
+
+      img {
+        transition: 0.3s;
+        transform: rotate(45deg) !important;
+      }
     }
 
     button {
@@ -5878,6 +5884,11 @@ body {
       padding: 16px 18px;
       width: 100%;
       height: 8vh;
+
+      img {
+        transition: 0.3s;
+
+      }
 
       @media (max-width: 1540px) {
         // width: 17.125vw;
@@ -6501,6 +6512,38 @@ body {
         margin: 0;
         padding: 0;
         line-height: 0;
+      }
+    }
+  }
+}
+
+.accordions-turismo {
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 871px) {
+    width: 100%;
+  }
+
+  .text-turismo {
+    color: #999999;
+    font-size: 18px;
+    font-family: Neue Haas Unica Pro;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+  }
+
+  .accordions-main {
+    display: flex;
+    gap: 16px;
+
+    @media (max-width: 871px) {
+      flex-direction: column;
+      width: 100%;
+
+      .accordion {
+        width: 100% !important;
       }
     }
   }
