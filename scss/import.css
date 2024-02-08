@@ -11300,6 +11300,11 @@ body {
   display: flex;
   gap: 16px;
 }
+@media (max-width: 500px) {
+  .wrapper-cards {
+    height: 432px;
+  }
+}
 .wrapper-cards .swiper-slide {
   width: fit-content !important;
   color: black;
@@ -11322,6 +11327,11 @@ body {
   background-color: #eeeeee;
   border-radius: 4px;
   box-shadow: none;
+}
+@media (max-width: 800px) {
+  .wrapper-cards .swiper-slide .card {
+    height: 350px !important;
+  }
 }
 .wrapper-cards .swiper-slide .card h2 {
   color: var(--Typography-Text-color-font-text-default, #1d1d1d);

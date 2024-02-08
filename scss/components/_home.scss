@@ -6165,12 +6165,13 @@ body {
 .wrapper-cards {
   width: 100% !important;
   height: 364px;
+
   display: flex;
   gap: 16px;
 
   @media (max-width: 500px) {
     // height: 480px;
-    // height: 432px;
+    height: 432px;
   }
 
   .swiper-slide {
@@ -6194,13 +6195,14 @@ body {
       // width: 210px;
       width: 193px;
       height: 301px;
+      // height: 100%;
       padding: 24px;
       background-color: #eeeeee;
       border-radius: 4px;
       box-shadow: none;
 
       @media (max-width: 800px) {
-        // height: 350px !important;
+        height: 350px !important;
       }
 
       h2 {
