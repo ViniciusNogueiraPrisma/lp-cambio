@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <meta charset="UTF-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TC Câmbio - Nova plataforma de câmbio</title>
 
@@ -173,9 +173,208 @@
     </div>
 
     <div class="form-content">
-        <div class="container">
-            
+      <div class="container container-form">
+        <div class="inputs-main">
+          <form
+            action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D4x0000022jF2"
+            method="POST"
+          >
+            <input type="hidden" name="oid" value="00D4x0000022jF2" />
+            <input type="hidden" name="retURL" value="http://" />
+
+            <div class="labels">
+              <label for="first_name">Primeiro Nome *</label>
+              <input
+                id="first_name"
+                maxlength="40"
+                name="first_name"
+                size="20"
+                type="text"
+                placeholder="Primeiro nome"
+              />
+            </div>
+
+            <div class="labels">
+              <label for="last_name">Sobrenome *</label
+              ><input
+                id="last_name"
+                maxlength="80"
+                name="last_name"
+                size="20"
+                type="text"
+                placeholder="Sobrenome"
+              />
+            </div>
+
+            <div class="labels">
+              <label for="email">Email *</label
+              ><input
+                id="email"
+                maxlength="80"
+                name="email"
+                size="20"
+                type="text"
+                placeholder="Digite seu email"
+              />
+            </div>
+
+            <div class="labels">
+              <label for="phone">Digite seu telefone</label
+              ><input
+                id="phone"
+                maxlength="40"
+                name="phone"
+                size="20"
+                type="text"
+                placeholder="(__) _____-____"
+              />
+            </div>
+
+            <div class="labels select-options">
+              Escolher uma moeda:<select
+                id="00NHY000000QlBW"
+                name="00NHY000000QlBW"
+                title="Moeda pretendida"
+              >
+                <option value="">Selecione as moedas</option>
+                <option
+                  value="Coroa 
+                Dinamarquesa (DKK)"
+                >
+                  Coroa Dinamarquesa (DKK)
+                </option>
+                <option value="Coroa Norueguesa (NOK)">
+                  Coroa Norueguesa (NOK)
+                </option>
+                <option value="Coroa Sueca (SEK)">Coroa Sueca (SEK)</option>
+                <option value="Dólar Americano (USD)">
+                  Dólar Americano (USD)
+                </option>
+                <option value="Dólar Australiano (AUD)">
+                  Dólar Australiano (AUD)
+                </option>
+                <option value="Dólar Canadense (CAD)">
+                  Dólar Canadense (CAD)
+                </option>
+                <option value="Dólar Neozelandês (NZD)">
+                  Dólar Neozelandês (NZD)
+                </option>
+                <option value="Euro (EUR)">Euro (EUR)</option>
+                <option value="Franco Suíço (CHF)">Franco Suíço (CHF)</option>
+                <option value="Iene Japonês (JPY)">Iene Japonês (JPY)</option>
+                <option value="Libra Esterlina (GBP)">
+                  Libra Esterlina (GBP)
+                </option>
+                <option value="Peso Argentino (ARS)">
+                  Peso Argentino (ARS)
+                </option>
+                <option value="Peso Chileno (CLP)">Peso Chileno (CLP)</option>
+                <option value="Peso Colombiano (COP)">
+                  Peso Colombiano (COP)
+                </option>
+                <option value="Peso Mexicano (MXN)">Peso Mexicano (MXN)</option>
+                <option value="Peso Uruguaio (UYU)">Peso Uruguaio (UYU)</option>
+                <option value="Rand Sul-Africano (ZAR)">
+                  Rand Sul-Africano (ZAR)
+                </option>
+                <option value="Renminbi (Yuan Chinês) (CNY)">
+                  Renminbi (Yuan Chinês) (CNY)
+                </option>
+                <option value="Shekel Israel (ILS)">Shekel Israel (ILS)</option>
+                <option value="Sol Peruano (PEN)">Sol Peruano (PEN)</option>
+              </select>
+            </div>
+
+            <div class="labels">
+              Valor pretendido:<input
+                id="00NHY000000QlBb"
+                name="00NHY000000QlBb"
+                size="20"
+                type="text"
+                placeholder="R$"
+              />
+            </div>
+
+            <div class="checkboxs-contato">
+              <div class="checkbox-1">
+                <input
+                  class="form-check-input"
+                />
+
+                <span
+                  >A TC Cambio respeita a sua privacidade e utiliza seus dados
+                  pessoais apenas para fornecer informações solicitadas por
+                  você. Para saber mais, confira nosso Termo de Privacidade. Ao
+                  clicar em Cadastrar abaixo, você autoriza que a TC Cambio
+                  armazene e trate os dados pessoais informados acima para
+                  contatá-lo e fornecer informações solicitadas por você.
+                  <a>Termo de Privacidade</a>. Ao clicar em "Entrar em contato"
+                  abaixo, você autoriza que a TC Pandhora armazene e trate os
+                  dados pessoais informados acima para contatá-lo e fornecer
+                  informações solicitadas por você.
+                </span>
+              </div>
+
+              <div class="checkbox-2">
+                <input class="form-check-input" />
+                <span>
+                  Você aceita nossos termos e poderá ler nossa
+                  <a href="https://tc.com.br/termo-lgpd?_gl=1*1pjac88*_ga*MzI5MDM0MDc0LjE2OTAyMTc2Njg.*_ga_04JRJYZ32H*MTY5Njk1NzMxMy42LjAuMTY5Njk1NzMxMy42MC4wLjA" target="_blank">Política de Privacidade</a> quando desejar
+                </span>
+              </div>
+
+              <div class="recaptcha">
+                <div
+                  id="ContentInternal_ContentPlaceHolderConteudo_divRecaptcha"
+                  class="g-recaptcha"
+                  data-sitekey="6LcNeEIoAAAAALPODhD_7cloJfJKv7ISn9sn9g2_"
+                >
+                  <div style="width: 304px; height: 78px">
+                    <div>
+                      <iframe
+                        title="reCAPTCHA"
+                        width="304"
+                        height="78"
+                        role="presentation"
+                        name="a-z0sjzst1ebz9"
+                        frameborder="0"
+                        scrolling="no"
+                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                        src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcNeEIoAAAAALPODhD_7cloJfJKv7ISn9sn9g2_&amp;co=aHR0cHM6Ly93d3cucGFuZGhvcmEuY29tOjQ0Mw..&amp;hl=pt-BR&amp;v=MHBiAvbtvk5Wb2eTZHoP1dUd&amp;size=normal&amp;cb=dxl2n97kchob"
+                      ></iframe>
+                    </div>
+                    <textarea
+                      id="g-recaptcha-response"
+                      name="g-recaptcha-response"
+                      class="g-recaptcha-response"
+                      style="
+                        width: 250px;
+                        height: 40px;
+                        border: 1px solid rgb(193, 193, 193);
+                        margin: 10px 25px;
+                        padding: 0px;
+                        resize: none;
+                        display: none;
+                      "
+                    ></textarea>
+                  </div>
+                  <iframe style="display: none"></iframe>
+                </div>
+                <div class="validacaocampos">
+                  <span
+                    id="ContentInternal_ContentPlaceHolderConteudo_lblMessage"
+                  ></span>
+                </div>
+              </div>
+
+              <div class="btns-contato">
+                <a>Limpar formulário</a>
+                <a>Cadastrar</a>
+              </div>
+            </div>
+          </form>
         </div>
+      </div>
     </div>
 
     <footer>
@@ -206,11 +405,9 @@
                   href="https://api.whatsapp.com/send?phone=5511932829554"
                   >+55 &nbsp (11) 4003-6048 &nbsp</a
                 >
-                / &nbsp +55 (11) 9 3282-9554
-                <br />
-                Nosso time de atendimento está disponível de segunda à
-                sexta-feira, das 09h às 18h. <br />
-                *exceto feriados</span
+                / &nbsp +55 (11) 9 3282-9554 Nosso time de atendimento está
+                disponível de segunda à sexta-feira, das 09h às 18h. *exceto
+                feriados</span
               >
             </div>
 
