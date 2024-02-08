@@ -10986,12 +10986,16 @@ body {
   }
 }
 .accordions-content .accordion {
-  width: 18.125vw;
   background-color: #494949;
   height: fit-content;
   border-radius: 8px !important;
   margin: 0;
   padding: 0;
+}
+@media (max-width: 2000px) {
+  .accordions-content .accordion {
+    width: 18.125vw;
+  }
 }
 @media (max-width: 1540px) {
   .accordions-content .accordion {
@@ -11043,12 +11047,16 @@ body {
   border-radius: 8px !important;
   padding: 16px 18px;
   width: 100%;
-  height: 8vh;
   text-align: start;
   gap: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 2000px) {
+  .accordions-content .accordion button {
+    height: 8vh;
+  }
 }
 .accordions-content .accordion button img {
   transition: 0.3s;

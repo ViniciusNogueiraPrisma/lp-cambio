@@ -5824,7 +5824,10 @@ body {
   }
 
   .accordion {
-    width: 18.125vw;
+    @media (max-width: 2000px) {
+      width: 18.125vw;
+    }
+
     // background-color: #000000;
     background-color: #494949;
     height: fit-content;
@@ -5882,9 +5885,13 @@ body {
       // padding: 16px 24px;
       padding: 16px 18px;
       width: 100%;
-      height: 8vh;
+      // height: 8vh;
       text-align: start;
       gap: 8px;
+
+      @media (max-width: 2000px) {
+        height: 8vh;
+      }
 
       img {
         transition: 0.3s;
@@ -6597,3 +6604,7 @@ body {
     }
   }
 }
+
+// .form-content {
+//   background-color: ;
+// }
