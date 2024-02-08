@@ -6169,8 +6169,7 @@ body {
   display: flex;
   gap: 16px;
 
-  @media (max-width: 500px) {
-    // height: 480px;
+  @media (max-width: 800px) {
     height: 432px;
   }
 
@@ -6202,7 +6201,7 @@ body {
       box-shadow: none;
 
       @media (max-width: 800px) {
-        height: 350px !important;
+        height: 360px !important;
       }
 
       h2 {

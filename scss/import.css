@@ -11300,7 +11300,7 @@ body {
   display: flex;
   gap: 16px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .wrapper-cards {
     height: 432px;
   }
@@ -11330,7 +11330,7 @@ body {
 }
 @media (max-width: 800px) {
   .wrapper-cards .swiper-slide .card {
-    height: 350px !important;
+    height: 360px !important;
   }
 }
 .wrapper-cards .swiper-slide .card h2 {
