@@ -24,16 +24,51 @@ var swiper = new Swiper(".mySwiper-fundos", {
   },
 });
 
-var swiper = new Swiper(".mySwiper-cards", {
-  slidesPerView: "auto",
-  autoplay: {
-    delay: 2000,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    clickable: true,
-    el: ".swiper-pagination",
-  },
+// var swiper = new Swiper(".mySwiper-cards", {
+//   slidesPerView: 7,
+//   autoplay: {
+//     delay: 4000,
+//     disableOnInteraction: false,
+//   },
+//   pagination: {
+//     clickable: true,
+//     el: ".swiper-pagination",
+//   },
+// });
+
+var swiper;
+
+function initSwiper() {
+  swiper = new Swiper(".mySwiper-cards", {
+    slidesPerView: 7,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      clickable: true,
+      el: ".swiper-pagination",
+    },
+  });
+}
+
+function updateSwiper() {
+  if (window.innerWidth < 1522) {
+    swiper.params.slidesPerView = "auto";
+    swiper.update();
+  } else {
+    swiper.params.slidesPerView = 7;
+    swiper.update();
+  }
+}
+
+initSwiper();
+
+window.addEventListener("resize", function () {
+  updateSwiper();
+});
+window.addEventListener("load", function () {
+  updateSwiper();
 });
 
 $(document).ready(function () {

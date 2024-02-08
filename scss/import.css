@@ -10952,12 +10952,21 @@ body {
   transition: opacity 1s linear !important;
 }
 
+.content-full-btn {
+  margin-top: 48px;
+}
+
+.btns-content a:first-child {
+  margin-right: 12px;
+}
+
 .accordions-content {
   height: fit-content;
   gap: 16px;
   display: grid;
   grid-template-columns: auto auto auto;
   padding-right: 75px;
+  width: fit-content;
 }
 @media (max-width: 1540px) {
   .accordions-content {
@@ -10973,6 +10982,7 @@ body {
 @media (max-width: 824px) {
   .accordions-content {
     grid-template-columns: auto;
+    width: 100%;
   }
 }
 .accordions-content .accordion {
@@ -11029,6 +11039,7 @@ body {
   border-radius: 8px !important;
   padding: 16px 18px;
   width: 100%;
+  height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11285,14 +11296,9 @@ body {
 
 .wrapper-cards {
   width: 100% !important;
-  height: 423px;
+  height: 364px;
   display: flex;
   gap: 16px;
-}
-@media (max-width: 500px) {
-  .wrapper-cards {
-    height: 432px;
-  }
 }
 .wrapper-cards .swiper-slide {
   width: fit-content !important;
@@ -11316,11 +11322,6 @@ body {
   background-color: #eeeeee;
   border-radius: 4px;
   box-shadow: none;
-}
-@media (max-width: 800px) {
-  .wrapper-cards .swiper-slide .card {
-    height: 350px !important;
-  }
 }
 .wrapper-cards .swiper-slide .card h2 {
   color: var(--Typography-Text-color-font-text-default, #1d1d1d);
@@ -11417,10 +11418,12 @@ body {
   align-items: center !important;
   box-shadow: none;
   border: 1px solid rgb(212, 212, 212);
+  height: 125px;
 }
 @media (max-width: 1199px) {
   .itens-1 .cards-itens-1 .card {
     width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 767px) {

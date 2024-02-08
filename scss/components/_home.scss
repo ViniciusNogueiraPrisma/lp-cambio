@@ -5790,6 +5790,16 @@ body {
   transition: opacity 1s linear !important;
 }
 
+.content-full-btn {
+  margin-top: 48px;
+}
+
+.btns-content {
+  a:first-child {
+    margin-right: 12px;
+  }
+}
+
 .accordions-content {
   // height: 100%;
   height: fit-content;
@@ -5797,6 +5807,7 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
   padding-right: 75px;
+  width: fit-content;
 
   @media (max-width: 1540px) {
     font-size: 16px;
@@ -5809,6 +5820,7 @@ body {
 
   @media (max-width: 824px) {
     grid-template-columns: auto;
+    width: 100%;
   }
 
   .accordion {
@@ -5865,6 +5877,7 @@ body {
       // padding: 16px 24px;
       padding: 16px 18px;
       width: 100%;
+      height: 8vh;
 
       @media (max-width: 1540px) {
         // width: 17.125vw;
@@ -6151,13 +6164,13 @@ body {
 
 .wrapper-cards {
   width: 100% !important;
-  height: 423px;
+  height: 364px;
   display: flex;
   gap: 16px;
 
   @media (max-width: 500px) {
     // height: 480px;
-    height: 432px;
+    // height: 432px;
   }
 
   .swiper-slide {
@@ -6187,7 +6200,7 @@ body {
       box-shadow: none;
 
       @media (max-width: 800px) {
-        height: 350px !important;
+        // height: 350px !important;
       }
 
       h2 {
@@ -6296,9 +6309,11 @@ body {
       align-items: center !important;
       box-shadow: none;
       border: 1px solid rgb(212, 212, 212);
+      height: 125px;
 
       @media (max-width: 1199px) {
         width: 100%;
+        height: 100%;
       }
 
       @media (max-width: 767px) {
